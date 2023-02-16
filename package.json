@@ -14,12 +14,7 @@
     "express.js"
    
   ],
-  "author": "Ethan Miller",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/king-melchizedek/Netlify-Express/issues"
-  },
-  "homepage": "https://github.com/king-melchizedek/Netlify-Express#readme",
+
   "dependencies": {
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
