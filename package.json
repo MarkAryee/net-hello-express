@@ -1,5 +1,5 @@
 {
-  "name": "Netlify-Express",
+  "name": "net-hello-express",
   "version": "0.0.1",
   "description": "Example of how to deploy an Express.js Netlify app.",
   "main": "functions/server.js",
