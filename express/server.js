@@ -12,6 +12,9 @@ let views = path.join(__dirname, '../');
 // Home route.
 router.get('/n', (req, res) => {
   //res.sendFile('index.html', { root: views });
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.write('<h1>Hello from Express.js!</h1>');
+  res.end();
 });
 
 // Other routes.
