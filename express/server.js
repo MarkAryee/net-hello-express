@@ -32,5 +32,5 @@ router.get('/page4', function(req, res){
 app.use(bodyParser.json());
 app.use('/.netlify/functions/server', router);  // path must route to lambda (express/server.js)
 
-module.exports = app;
-module.exports.handler = serverless(app);
+//module.exports = app;
+//module.exports.handler = serverless(app);
