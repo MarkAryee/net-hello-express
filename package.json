@@ -6,12 +6,13 @@
   "scripts": {
     "build": "netlify-lambda build express",
     "start": "node server-local.js",
-    
+    "pug": "node node_modules/pug-cli/index.js views/ --out ./"
   },
 
   "keywords": [
     "netlify",
     "express.js"
+   
   ],
   "author": "Ethan Miller",
   "license": "MIT",
