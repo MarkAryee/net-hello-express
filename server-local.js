@@ -7,7 +7,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 // Local request handlers.
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
   res.render('index');
   res.send('Hello World!')  
 });
