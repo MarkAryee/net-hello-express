@@ -10,7 +10,7 @@ const router = express.Router();
 let views = path.join(__dirname, '../');
 
 // Home route.
-router.get('/', (req, res) => {
+router.get('/new', (req, res) => {
   res.sendFile('index.html', { root: views });
 });
 
